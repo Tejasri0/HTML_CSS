@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+        #mySidenav a {
+          position: absolute;
+          left: -80px; 
+          transition: 0.3s; 
+          padding: 25px; 
+          width: 100px; 
+          border-radius: 0 5px 5px 0;
+        }
+        
+        #mySidenav a:hover {
+          left: 0; 
+        }
+        
+        #i1 {
+          top: 20px;
+          background-color: #04AA6D;
+        }
+        
+        #i2 {
+          top: 80px;
+          background-color: #2196F3; 
+        }
+        
+        #i3 {
+          top: 140px;
+          background-color: #f44336; 
+        }
+        
+        #i4 {
+          top: 200px;
+          background-color: #555 
+        }
+        
+        h1,p{
+          position: absolute; 
+          left: 100px; 
+        }
+        
+        p{
+          top:70px;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="#" id="i1"></a>
+            <a href="#" id="i2"></a>
+            <a href="#" id="i3"></a>
+            <a href="#" id="i4"></a>
+          </div>
+          <h1 text> <b> Hoverable Sidenav Buttons </b></h1>
+          <p> Hover over the buttons in the left side navigation to open them </p>
+    </body>
+</html>
